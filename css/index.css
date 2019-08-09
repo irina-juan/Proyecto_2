@@ -1,4 +1,5 @@
 body{
+  background-color: grey;
 box-sizing: border-box;
 }
 .container-fluid{
@@ -20,11 +21,26 @@ color: white;
   color:grey;
   border-color: grey;
 }
-#carousel{
-  width: 80%;
-  margin: 0 auto;
+.carousel{
+  margin-top: 4em;
+  position: relative;
+
 }
-.carousel1{
-  color: black;
-  font-size: 1.5em;
+#carouselnegro{
+  color:black;
+  font-size: 50px;
+}
+
+p{
+  font-size: 25.7px;
+}
+
+.navbar-collapse{
+  text-align: center;
+}
+@media (min-width: 576px)
+.form-inline .form-control {
+    display: inline-block;
+    width: 85%;
+    vertical-align: middle;
 }
